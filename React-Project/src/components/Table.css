@@ -1,0 +1,51 @@
+.data-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin:0 auto;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    /* background-color: #ddd; */
+    
+  }
+  
+  .data-table th, .data-table td {
+    border: 0px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    
+
+  }
+  
+  .data-table th {
+    background-color: #313131;
+    /* padding: 15px 32 */
+  }
+
+  .btn-del {
+    background-color: #ff0000;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+
+  }
+  .btn-edit{
+    background-color: #ffee00;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+  }
+  .btn-add{
+    background-color: #2382ff;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 0;
+    width: auto;
+    cursor: pointer;
+    float:right;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
